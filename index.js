@@ -6,7 +6,7 @@ import axios from 'axios';
 const username = process.argv[2];
 
 if(!username){
-    console.log(chalk.red("Please provide a valid username"));
+    console.log(("Please provide a valid username"));
     process.exit(1);
 }
 
