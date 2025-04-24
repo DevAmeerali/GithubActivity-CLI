@@ -52,7 +52,7 @@ async function getActivity() {
             console.log('•', (output));
         });
     } catch (error) {
-        console.log((`❌ Please provide a GitHub username.`), error.response?.data?.message || error.message);
+        console.log((`Please provide a GitHub username.`), error.response?.data?.message || error.message);
     }
 
 }
